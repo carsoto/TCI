@@ -684,6 +684,7 @@ ul.nostyle i {
 #pricing {
   padding: 100px 0 70px;
 }
+
 #pricing ul.pricing {
   list-style: none;
   padding: 0;
@@ -750,4 +751,9 @@ ul.nostyle i {
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
   color: #fff;
+}
+
+#expertia {
+  padding: 100px 0;
+  background: #f5f5f5;
 }
