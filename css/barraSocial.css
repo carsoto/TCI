@@ -1,0 +1,107 @@
+@media screen and (min-width: 400px) and (max-width: 900px) {   
+	.contenedorBarra{
+		display:none;
+		position: fixed;
+	left: 0;
+	top: 620px;
+	bottom: 200px;
+	z-index: 2000;
+	}
+
+	.barraMenu{
+		display:block;
+	}
+
+	.social-face{
+	list-style:none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 25px;
+	width: 60px;
+	height: 60px;
+	padding: 30px;
+	background-color: #222283;
+	}
+
+	.social-twt{
+		list-style:none;
+		color: white;
+	    text-align: center;
+	    display: inline-block;
+	    text-decoration: none;
+	    font-size: 25px;
+	    width: 60px;
+	    height: 60px;
+	    padding: 30px;
+	    background-color: #1FB1EE;
+	 }
+
+	 .social-inst{
+		list-style:none;
+		color: white;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+		font-size: 25px;
+		width: 60px;
+		height: 60px;
+		padding: 30px;
+		background-color: #DF7401;
+	}
+
+	.social-link{
+		list-style:none;
+		color: white;
+		text-align: center;
+		display: inline-block;
+		text-decoration: none;
+		font-size: 25px;
+		width: 60px;
+		height: 60px;
+		padding: 30px;
+		background-color: #222283;
+	}
+	.barraMenu a:hover{background-color: #333; width: 90px;}
+
+
+}
+@media screen and (min-width: 901px) { 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedorBarra{
+    position: fixed;
+    left: 0;
+    top: 620px;
+    z-index: 2000;
+    display:block;
+}
+
+.barraMenu{
+  	display:none;
+  }
+
+.social{
+	 list-style:none;
+}
+
+.social li a{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    padding: 30px;
+}
+.social li a:hover{background-color: #333; width: 90px;}
+.facebook{background-color: #222283;}
+.twitter{background-color: #1FB1EE;}
+.linkedin{background-color: #222283;}
+.instagram{background-color: #DF7401;}
+}
